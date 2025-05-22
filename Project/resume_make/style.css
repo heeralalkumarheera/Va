@@ -11,6 +11,18 @@ body {
   justify-content: space-between;
 }
 
+
+#resume-preview {
+  background-color: #e9f7ef;
+  padding: 20px;
+  border-radius: 8px;
+  border-color: black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  min-height: 300px;
+  transition: background-color 0.3s ease;
+}
+
+
 form {
   flex: 1 1 45%;
   background: white;
@@ -27,6 +39,17 @@ form {
   box-shadow: 0 0 10px #ccc;
   transition: all 0.3s ease;
 }
+
+#resume-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
 
 input, textarea {
   width: 100%;
